@@ -1,0 +1,19 @@
+{
+  "name": "web-vitals-test-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint {tests,src}/**/*.js *.js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^11.0.0",
+    "eslint": "^8.6.0",
+    "jest": "^27.4.7"
+  }
+}
