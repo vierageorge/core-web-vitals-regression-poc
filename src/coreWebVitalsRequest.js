@@ -22,7 +22,8 @@ module.exports = {
         try {
             resp = await axios.get(queryUrl);
         } catch (err) {
-            console.error(err);
+            console.error("Got an error while retrieving the response from Google API");
+            console.error(err.response);
         }
         return resp.data;
     }
